@@ -1,10 +1,10 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../stores/slices/cartSlices";
-import laptop from "src/assests/laptop.png" 
-import headphone from "src/assests/headphone.jpg" 
-import phone from"src/assests/phone.jpg"
-import tablet from "src/assests/tablet.jpg" 
+import laptop from "../assests/laptop.png" 
+import headphone from "../assests/headphone.jpg" 
+import phone from"../assests/phone.jpg"
+import tablet from "../assests/tablet.jpg" 
 
 const HomePage = () => {
   const dispatch = useDispatch();
