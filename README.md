@@ -1,3 +1,4 @@
+React E-Commerce Dashboard
 A responsive e-commerce dashboard built with React, Vite, and Redux Toolkit. This project includes a Home page, Cart page, and Profile page with dynamic Add-to-Cart functionality, fully responsive design, and reusable components.
 
 🔹 Features
