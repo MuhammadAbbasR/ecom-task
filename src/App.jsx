@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import HomePage from "./pages/HomePage";
-import CartPage from "./pages/CartPage";
-import ProfilePage from "./pages/ProfilePage";
+import HomePage from "./pages/homepage";
+import CartPage from "./pages/cartpage";
+import ProfilePage from "./pages/profilepage";
 
 function App() {
   const cartCount = useSelector((state) =>
